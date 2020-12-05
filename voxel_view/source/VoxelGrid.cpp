@@ -187,7 +187,9 @@ void VoxelGrid::createColors(){
                     for(int c = 0; c < 36; c++){
                         colors.push_back(vec3(r,g,b));
                     }
-
+                    if(makeBlue = true){
+                        
+                    }
                 }
             }
         }

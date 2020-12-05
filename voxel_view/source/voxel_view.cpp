@@ -31,6 +31,7 @@ std::vector < GLuint > buffer;
 std::vector < GLuint > vao;
 GLuint ModelView_loc, NormalMatrix_loc, Projection_loc;
 bool wireframe;
+bool makeBlue;
 int current_draw;
 
 //==========Trackball Variables==========
@@ -66,6 +67,9 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
   if (key == GLFW_KEY_W && action == GLFW_PRESS){
     wireframe = !wireframe;
   }
+ if (key == GLFW_KEY_F && action == GLFW_PRESS){
+   makeBlue = !makeBlue;
+ }
 }
 
 //User interaction handler
@@ -263,6 +267,7 @@ void init(){
   scalefactor = 1.0;
   
   wireframe = false;
+ makeBlue = false;
   current_draw = 0;
   
   lbutton_down = false;
