@@ -41,33 +41,33 @@ bool VoxelGrid::loadVoxels(const char * path){
 //similar functions to the VoxelGrid class) to organize your code.
 void VoxelGrid::addCube(vec3 pos) {
     //bottom
- vertices.push_back(vec3(0,0,0)+ pos);
- vertices.push_back(vec3(0,1,0)+ pos);
- vertices.push_back(vec3(1,0,0)+ pos);
+    vertices.push_back(vec3(0,0,0)+ pos);
+    vertices.push_back(vec3(0,1,0)+ pos);
+    vertices.push_back(vec3(1,0,0)+ pos);
 
- vertices.push_back(vec3(0,1,0)+ pos);
- vertices.push_back(vec3(1,0,0)+ pos);
- vertices.push_back(vec3(1,1,0)+ pos);
-   //top
-   vertices.push_back(vec3(0,1,1)+ pos);
-   vertices.push_back(vec3(1,0,1)+ pos);
-   vertices.push_back(vec3(1,1,1)+ pos);
+    vertices.push_back(vec3(0,1,0)+ pos);
+    vertices.push_back(vec3(1,0,0)+ pos);
+    vertices.push_back(vec3(1,1,0)+ pos);
+    
+    //top
+    vertices.push_back(vec3(0,1,1)+ pos);
+    vertices.push_back(vec3(1,0,1)+ pos);
+    vertices.push_back(vec3(1,1,1)+ pos);
     
     vertices.push_back(vec3(0,0,1)+ pos);
     vertices.push_back(vec3(0,1,1)+ pos);
     vertices.push_back(vec3(1,0,1)+ pos);
-    //side back
     
+    //side back
     vertices.push_back(vec3(0,1,0)+ pos);
     vertices.push_back(vec3(0,1,1)+ pos);
     vertices.push_back(vec3(1,1,1)+ pos);
 
-     vertices.push_back(vec3(1,1,1)+ pos);
-     vertices.push_back(vec3(1,1,0)+ pos);
-     vertices.push_back(vec3(0,1,0)+ pos);
+    vertices.push_back(vec3(1,1,1)+ pos);
+    vertices.push_back(vec3(1,1,0)+ pos);
+    vertices.push_back(vec3(0,1,0)+ pos);
      
     //side east
-    
     vertices.push_back(vec3(1,1,1)+ pos);
     vertices.push_back(vec3(1,0,0)+ pos);
     vertices.push_back(vec3(1,1,0)+ pos);
@@ -81,21 +81,19 @@ void VoxelGrid::addCube(vec3 pos) {
     vertices.push_back(vec3(0,0,0)+ pos);
     vertices.push_back(vec3(0,1,0)+ pos);
     
-      vertices.push_back(vec3(0,0,1)+ pos);
-      vertices.push_back(vec3(0,1,0)+ pos);
-      vertices.push_back(vec3(0,1,1)+ pos);
-//side front
+    vertices.push_back(vec3(0,0,1)+ pos);
+    vertices.push_back(vec3(0,1,0)+ pos);
+    vertices.push_back(vec3(0,1,1)+ pos);
 
-     vertices.push_back(vec3(0,0,1)+ pos);
-     vertices.push_back(vec3(0,0,0)+ pos);
-     vertices.push_back(vec3(1,0,0)+ pos);
+    //side front
+    vertices.push_back(vec3(0,0,1)+ pos);
+    vertices.push_back(vec3(0,0,0)+ pos);
+    vertices.push_back(vec3(1,0,0)+ pos);
     
     vertices.push_back(vec3(0,0,1)+ pos);
     vertices.push_back(vec3(1,0,0)+ pos);
     vertices.push_back(vec3(1,0,1)+ pos);
     
-    
-
 }
 
 //TODO
@@ -187,9 +185,12 @@ void VoxelGrid::createColors(){
                     for(int c = 0; c < 36; c++){
                         colors.push_back(vec3(r,g,b));
                     }
+                    
+                    /*
                     if(makeBlue = true){
                         
                     }
+                     */
                 }
             }
         }

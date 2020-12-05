@@ -70,6 +70,13 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
  if (key == GLFW_KEY_F && action == GLFW_PRESS){
    makeBlue = !makeBlue;
  }
+    
+    if( key == GLFW_KEY_ENTER && action == GLFW_PRESS){
+        std::cout << "enter coordinate to change" << std::endl;
+        vec3 input;
+        std::cin >> input.x >> input.y >> input.z;
+        VoxelGrid::changeColor(input, 1);
+    }
 }
 
 //User interaction handler
@@ -316,10 +323,6 @@ int main(void){
   
   while (!glfwWindowShouldClose(window)){
     
-      std::cout << "enter coordinate to change" << std::endl;
-      vec3 input;
-      std::cin >> input.x >> input.y >> input.z;
-      VoxelGrid::changeColor(input, 1);
       
     //Display as wirfram, boolean tied to keystoke 'w'
     if(wireframe){
