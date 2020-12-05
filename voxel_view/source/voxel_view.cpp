@@ -22,7 +22,7 @@ float  material_shininess = 10;
 enum{_IMAGE_1, _IMAGE_2, _IMAGE_3, _TOTAL_IMAGES};
 std::string files[_TOTAL_IMAGES] = {"/models/three.qb",
                                     "/models/palmtree.qb",
-                                    "/models/goldisle.qb",};
+                                    "/models/Mecha01.vox",};
 
 
 
