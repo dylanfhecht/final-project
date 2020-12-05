@@ -6,4 +6,4 @@
 
 #include "SourcePath.h"
 
-std::string source_path = "/Users/calderking/Documents/GitHub/final-project/voxel_view";
+std::string source_path = "/Users/dylanhecht/Documents/GitHub/module-volumetric-models-team-c/voxel_view";
