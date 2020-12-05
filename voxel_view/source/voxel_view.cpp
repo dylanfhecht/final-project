@@ -311,6 +311,11 @@ int main(void){
   
   while (!glfwWindowShouldClose(window)){
     
+      std::cout << "enter coordinate to change" << std::endl;
+      vec3 input;
+      std::cin >> input.x >> input.y >> input.z;
+      VoxelGrid::changeColor(input, 1);
+      
     //Display as wirfram, boolean tied to keystoke 'w'
     if(wireframe){
       glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );

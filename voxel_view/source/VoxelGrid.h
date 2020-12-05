@@ -34,6 +34,7 @@ public:
   void createMesh();
   void createNormals();
   void createColors();
+  void changeColor(vec3 pos, int player);
 
   
   friend std::ostream& operator << ( std::ostream& os, const VoxelGrid& v ) {

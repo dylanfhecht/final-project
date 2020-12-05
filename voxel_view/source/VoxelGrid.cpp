@@ -193,3 +193,16 @@ void VoxelGrid::createColors(){
         }
     }
 }
+
+void VoxelGrid::changeColor(vec3 pos, int player){
+    if(player == 1){
+        for(int i = 0; i < 36; i++){
+            colors[(pos.x*height*depth + pos.y*depth + pos.z)*36 + i] = vec3(0.0, 0.0, 1.0);
+        }
+    } else {
+        for(int i = 0; i < 36; i++){
+            colors[(pos.x*height*depth + pos.y*depth + pos.z)*36 + i] = vec3(0.0, 1.0, 0.0);
+        }
+    }
+    
+}
