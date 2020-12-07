@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4CB7E001E17B40D6B6FF6A93 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AA1C1F6100CC4539A6992837 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD15724620304B48A525FA22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C1A0D8FDD7045A4B8EDF7A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				60AC445B0D624FABB7E5C2F5 /* CMake Rules */,
+			);
+			dependencies = (
+				820E2795EDFB43FCB0082669 /* PBXTargetDependency */,
+				D47F5539011A43EE89BE8B84 /* PBXTargetDependency */,
+				431930888BE54E8CBC003EB0 /* PBXTargetDependency */,
+				C56C153E3DF945F4907CE11A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05C656C44C1C4A63BEABB9BA /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = 411C6534058C4E899D713998 /* input.c */; };
+		091C2161A2C446268F2DF881 /* SourcePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB1B9BFC66804DC8AB20EE2B /* SourcePath.cpp */; };
+		0CD13187341C4133ACA527E6 /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B573A42E37646F3BEA31144 /* cocoa_joystick.m */; };
+		3AB328C6CB17414FAA9BD61A /* toon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD35FE6FC0C8446BB1468424 /* toon.cpp */; };
+		4BF18A9ADFE84B6C9A77C332 /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B8120B47F847A69DCAF24D /* posix_tls.c */; };
+		4FB3094A3FAD481A8CC0EA3D /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 9E36173E45D049B3BBBE5247 /* vulkan.c */; };
+		5B5ED3AEDAA34D8B9B6B0A86 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 147DC7743908457EA160E246 /* glad.c */; };
+		5C4CDA5D451E4D08BAE9FD9D /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A066773FDE4810BA72CD4D /* cocoa_init.m */; };
+		738E6C46B1124A67BAC1E88D /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 15DA466E69BA4D508671A471 /* monitor.c */; };
+		756ABC498DA44E7DBCD6852F /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = EB22E051D9A34D69995656A9 /* init.c */; };
+		76BB8CEF8CA84E9B95A7C942 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B689A7FAAF34B4A9C1E7E35 /* window.c */; };
+		7DD21F520A894DD0918A3C97 /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = C796A01C2F3841E29DBB62D9 /* cocoa_time.c */; };
+		8366ADD72D2F4B74A11D4957 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B216AFDB0454310AD82DF8A /* cocoa_window.m */; };
+		AB54B6679CE94AA0BB905DFC /* Trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E438D672D124736A65CB475 /* Trackball.cpp */; };
+		B5CD610202B14AA1B11DA422 /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD15DA27DC2E4C308E731606 /* cocoa_monitor.m */; };
+		EAE9723B4848497D9B92A5F4 /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = 818BD94771D44DCB8CE1EB16 /* nsgl_context.m */; };
+		EAF24731AE694DFAB13812B3 /* ObjMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5792529102BF4FF7A51A1D95 /* ObjMesh.cpp */; };
+		FF4EC46FF2FC4487BA56B07E /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A1063ECAA69418BA2946BB7 /* context.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1236876A0F814458A04AC75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEE94C30DC54FE5AE9BA5C3;
+			remoteInfo = ZERO_CHECK;
+		};
+		190D72060A1B444785434B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71D98768D054AB28DDCE82F;
+			remoteInfo = glad;
+		};
+		247AC1553FD448089EAC3396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32FA895AAB4F8CB87C5B5F;
+			remoteInfo = glfw;
+		};
+		3E5FBD213F70421984919E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA25BAFFDCD412F892124A0;
+			remoteInfo = toon;
+		};
+		57F28A6F0E4A4D59B1FF8F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32FA895AAB4F8CB87C5B5F;
+			remoteInfo = glfw;
+		};
+		8A78693A90C34FA0907A2991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEE94C30DC54FE5AE9BA5C3;
+			remoteInfo = ZERO_CHECK;
+		};
+		8E601E63F3FB4AE68144E4E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEE94C30DC54FE5AE9BA5C3;
+			remoteInfo = ZERO_CHECK;
+		};
+		A616C6162A13411AADB0E2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32FA895AAB4F8CB87C5B5F;
+			remoteInfo = glfw;
+		};
+		F207937C970044508AD47CF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71D98768D054AB28DDCE82F;
+			remoteInfo = glad;
+		};
+		F40EE5644C0744FB9572D5F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA1D23B233F24CC99F672B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEE94C30DC54FE5AE9BA5C3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B4856E37724511B5379B7D /* SourcePath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SourcePath.h; path = source/common/SourcePath.h; sourceTree = SOURCE_ROOT; };
+		089E5BEFFC404648A8080105 /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "builddh/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		0B573A42E37646F3BEA31144 /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = "glfw-3.2/src/cocoa_joystick.m"; sourceTree = SOURCE_ROOT; };
+		111DB8E1454F4E12A4A879BD /* libglad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglad.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		147DC7743908457EA160E246 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = "glfw-3.2/deps/glad.c"; sourceTree = SOURCE_ROOT; };
+		15DA466E69BA4D508671A471 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = "glfw-3.2/src/monitor.c"; sourceTree = SOURCE_ROOT; };
+		1A1063ECAA69418BA2946BB7 /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = "glfw-3.2/src/context.c"; sourceTree = SOURCE_ROOT; };
+		1B689A7FAAF34B4A9C1E7E35 /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = "glfw-3.2/src/window.c"; sourceTree = SOURCE_ROOT; };
+		2DE9899A137740DEA5362C9A /* libglfw3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A151F42934C3CA0DE0BB0 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		32D83539F0FD4E1B85B78CC3 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = "glfw-3.2/src/internal.h"; sourceTree = SOURCE_ROOT; };
+		3DBEEE4628B34DD89524A307 /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = "glfw-3.2/src/cocoa_joystick.h"; sourceTree = SOURCE_ROOT; };
+		411C6534058C4E899D713998 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = "glfw-3.2/src/input.c"; sourceTree = SOURCE_ROOT; };
+		549C948064E14289B599BA52 /* mat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mat.h; path = source/common/mat.h; sourceTree = SOURCE_ROOT; };
+		5792529102BF4FF7A51A1D95 /* ObjMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ObjMesh.cpp; path = source/common/ObjMesh.cpp; sourceTree = SOURCE_ROOT; };
+		59A6A46F974843309AEE27DB /* vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = source/common/vec.h; sourceTree = SOURCE_ROOT; };
+		5D0EC8B56E724CCF9A72B905 /* toon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = toon; path = toon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B216AFDB0454310AD82DF8A /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = "glfw-3.2/src/cocoa_window.m"; sourceTree = SOURCE_ROOT; };
+		6B49702D7BA6447F944F683F /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = source/common/common.h; sourceTree = SOURCE_ROOT; };
+		818BD94771D44DCB8CE1EB16 /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = "glfw-3.2/src/nsgl_context.m"; sourceTree = SOURCE_ROOT; };
+		877684D0A2024E059FD7C3DF /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = "glfw-3.2/include/GLFW/glfw3native.h"; sourceTree = SOURCE_ROOT; };
+		9E36173E45D049B3BBBE5247 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = "glfw-3.2/src/vulkan.c"; sourceTree = SOURCE_ROOT; };
+		9E438D672D124736A65CB475 /* Trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Trackball.cpp; path = source/common/Trackball.cpp; sourceTree = SOURCE_ROOT; };
+		9FB97E85245945DAA76B9EFD /* posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = "glfw-3.2/src/posix_tls.h"; sourceTree = SOURCE_ROOT; };
+		A4176E1154C44E948CEBB370 /* ObjMesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjMesh.h; path = source/common/ObjMesh.h; sourceTree = SOURCE_ROOT; };
+		A729C6DA6B604C44BD88B237 /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = "glfw-3.2/src/nsgl_context.h"; sourceTree = SOURCE_ROOT; };
+		AB1B9BFC66804DC8AB20EE2B /* SourcePath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SourcePath.cpp; path = source/common/SourcePath.cpp; sourceTree = SOURCE_ROOT; };
+		AF2D233384A24CDCA59050C4 /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = "glfw-3.2/include/GLFW/glfw3.h"; sourceTree = SOURCE_ROOT; };
+		B06A4C07DF5243F48AD46ABD /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = "glfw-3.2/src/cocoa_platform.h"; sourceTree = SOURCE_ROOT; };
+		BD15DA27DC2E4C308E731606 /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = "glfw-3.2/src/cocoa_monitor.m"; sourceTree = SOURCE_ROOT; };
+		C4A066773FDE4810BA72CD4D /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = "glfw-3.2/src/cocoa_init.m"; sourceTree = SOURCE_ROOT; };
+		C796A01C2F3841E29DBB62D9 /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = "glfw-3.2/src/cocoa_time.c"; sourceTree = SOURCE_ROOT; };
+		C8C69DD7EB7642CEA360C797 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = builddh/CMakeFiles/toon.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		C92E3E031DFD4EFAA162EE27 /* CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = source/common/CheckError.h; sourceTree = SOURCE_ROOT; };
+		CA63A59F00FD4F96BB5D6FD2 /* fshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = fshader.glsl; path = shaders/fshader.glsl; sourceTree = SOURCE_ROOT; };
+		CF4622B12FCC4F359A983994 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D6B8120B47F847A69DCAF24D /* posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = "glfw-3.2/src/posix_tls.c"; sourceTree = SOURCE_ROOT; };
+		DA5E188348574E1CB1D713F4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E9D2DF8DA78E48EBB70FD2E0 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "glfw-3.2/src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		EB22E051D9A34D69995656A9 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = "glfw-3.2/src/init.c"; sourceTree = SOURCE_ROOT; };
+		EB9DF0F77F434120A962C2BC /* Trackball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Trackball.h; path = source/common/Trackball.h; sourceTree = SOURCE_ROOT; };
+		F1A29E9F0FC14D658C7857D6 /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = "glfw-3.2/deps/glad/glad.h"; sourceTree = SOURCE_ROOT; };
+		FA00160825F34D26A13037F1 /* vshader.glsl */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = vshader.glsl; path = shaders/vshader.glsl; sourceTree = SOURCE_ROOT; };
+		FD35FE6FC0C8446BB1468424 /* toon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toon.cpp; path = source/toon.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		018BB85A3E7C4F4F8F00D65B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5792529102BF4FF7A51A1D95 /* ObjMesh.cpp */,
+				AB1B9BFC66804DC8AB20EE2B /* SourcePath.cpp */,
+				9E438D672D124736A65CB475 /* Trackball.cpp */,
+				FD35FE6FC0C8446BB1468424 /* toon.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		06B1AE8AD412435A80CB9823 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A066773FDE4810BA72CD4D /* cocoa_init.m */,
+				0B573A42E37646F3BEA31144 /* cocoa_joystick.m */,
+				BD15DA27DC2E4C308E731606 /* cocoa_monitor.m */,
+				C796A01C2F3841E29DBB62D9 /* cocoa_time.c */,
+				6B216AFDB0454310AD82DF8A /* cocoa_window.m */,
+				1A1063ECAA69418BA2946BB7 /* context.c */,
+				EB22E051D9A34D69995656A9 /* init.c */,
+				411C6534058C4E899D713998 /* input.c */,
+				15DA466E69BA4D508671A471 /* monitor.c */,
+				818BD94771D44DCB8CE1EB16 /* nsgl_context.m */,
+				D6B8120B47F847A69DCAF24D /* posix_tls.c */,
+				9E36173E45D049B3BBBE5247 /* vulkan.c */,
+				1B689A7FAAF34B4A9C1E7E35 /* window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		072310E503624402ABD5CE03 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92E3E031DFD4EFAA162EE27 /* CheckError.h */,
+				A4176E1154C44E948CEBB370 /* ObjMesh.h */,
+				04B4856E37724511B5379B7D /* SourcePath.h */,
+				EB9DF0F77F434120A962C2BC /* Trackball.h */,
+				6B49702D7BA6447F944F683F /* common.h */,
+				549C948064E14289B599BA52 /* mat.h */,
+				59A6A46F974843309AEE27DB /* vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		0C9D788D62C74CE19FB47038 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1A29E9F0FC14D658C7857D6 /* glad.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		2D46ED93ED924C0882E635EE /* toon */ = {
+			isa = PBXGroup;
+			children = (
+				018BB85A3E7C4F4F8F00D65B /* Source Files */,
+				072310E503624402ABD5CE03 /* Header Files */,
+				5D198E233A9D4CEDBDD861E9 /* Resources */,
+				DA5E188348574E1CB1D713F4 /* CMakeLists.txt */,
+				CA63A59F00FD4F96BB5D6FD2 /* fshader.glsl */,
+				FA00160825F34D26A13037F1 /* vshader.glsl */,
+			);
+			name = toon;
+			sourceTree = "<group>";
+		};
+		4FCEF41083364CA3A6E04414 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5D198E233A9D4CEDBDD861E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8C69DD7EB7642CEA360C797 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6911222EB25249C69FB2D83F /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				06B1AE8AD412435A80CB9823 /* Source Files */,
+				84D7E403BA5A48FC8F32301C /* Header Files */,
+				E9D2DF8DA78E48EBB70FD2E0 /* CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		76B9B184E0E94975A81975A1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4FCEF41083364CA3A6E04414 /* CMake Rules */,
+				2E6A151F42934C3CA0DE0BB0 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7E53FB498DCC4E3DAD3BFB0F /* glad */ = {
+			isa = PBXGroup;
+			children = (
+				0C9D788D62C74CE19FB47038 /* Header Files */,
+				A8BDD1ABEADD4970B3B28CDC /* Source Files */,
+				CF4622B12FCC4F359A983994 /* CMakeLists.txt */,
+			);
+			name = glad;
+			sourceTree = "<group>";
+		};
+		84D7E403BA5A48FC8F32301C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				089E5BEFFC404648A8080105 /* glfw_config.h */,
+				AF2D233384A24CDCA59050C4 /* glfw3.h */,
+				877684D0A2024E059FD7C3DF /* glfw3native.h */,
+				3DBEEE4628B34DD89524A307 /* cocoa_joystick.h */,
+				B06A4C07DF5243F48AD46ABD /* cocoa_platform.h */,
+				32D83539F0FD4E1B85B78CC3 /* internal.h */,
+				A729C6DA6B604C44BD88B237 /* nsgl_context.h */,
+				9FB97E85245945DAA76B9EFD /* posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8DF4CC68D20F47C1914061C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				111DB8E1454F4E12A4A879BD /* libglad.a */,
+				2DE9899A137740DEA5362C9A /* libglfw3.a */,
+				5D0EC8B56E724CCF9A72B905 /* toon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BDD1ABEADD4970B3B28CDC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				147DC7743908457EA160E246 /* glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C027AF7F4B1242BD90252522 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				6911222EB25249C69FB2D83F /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		FEEEE1EC7283475CBB4C83F0 = {
+			isa = PBXGroup;
+			children = (
+				2D46ED93ED924C0882E635EE /* toon */,
+				7E53FB498DCC4E3DAD3BFB0F /* glad */,
+				76B9B184E0E94975A81975A1 /* ALL_BUILD */,
+				C027AF7F4B1242BD90252522 /* GLFW3 */,
+				8DF4CC68D20F47C1914061C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA25BAFFDCD412F892124A0 /* toon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CAB473D67024C23964AA8D5 /* Build configuration list for PBXNativeTarget "toon" */;
+			buildPhases = (
+				ACEA250AE47843DA93709213 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E934D498FF044A17B5FFB222 /* PBXTargetDependency */,
+				811FF93469D84A26B2C02016 /* PBXTargetDependency */,
+				F05262689EAD45628DC2BE38 /* PBXTargetDependency */,
+			);
+			name = toon;
+			productName = toon;
+			productReference = 5D0EC8B56E724CCF9A72B905 /* toon */;
+			productType = "com.apple.product-type.application";
+		};
+		D71D98768D054AB28DDCE82F /* glad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78EE5FB610C7484C88D5EFD1 /* Build configuration list for PBXNativeTarget "glad" */;
+			buildPhases = (
+				F363B0546D9842F495189565 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C55B779DE594B509F57535C /* PBXTargetDependency */,
+				6006F0203F74478697579612 /* PBXTargetDependency */,
+			);
+			name = glad;
+			productName = glad;
+			productReference = 111DB8E1454F4E12A4A879BD /* libglad.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EF32FA895AAB4F8CB87C5B5F /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C070D888AAB34030A72546D9 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				284B951FD83043E98F014260 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485EB919B2FD43808DACDCAE /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 2DE9899A137740DEA5362C9A /* libglfw3.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA1D23B233F24CC99F672B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = 4590E7B0BC7746ED93917581 /* Build configuration list for PBXProject "toon_SHADING" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEEEE1EC7283475CBB4C83F0;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				AD15724620304B48A525FA22 /* ALL_BUILD */,
+				0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */,
+				D71D98768D054AB28DDCE82F /* glad */,
+				EF32FA895AAB4F8CB87C5B5F /* glfw */,
+				BFA25BAFFDCD412F892124A0 /* toon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60AC445B0D624FABB7E5C2F5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh -f /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AA1C1F6100CC4539A6992837 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh -f /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284B951FD83043E98F014260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4CDA5D451E4D08BAE9FD9D /* cocoa_init.m in Sources */,
+				0CD13187341C4133ACA527E6 /* cocoa_joystick.m in Sources */,
+				B5CD610202B14AA1B11DA422 /* cocoa_monitor.m in Sources */,
+				7DD21F520A894DD0918A3C97 /* cocoa_time.c in Sources */,
+				8366ADD72D2F4B74A11D4957 /* cocoa_window.m in Sources */,
+				FF4EC46FF2FC4487BA56B07E /* context.c in Sources */,
+				756ABC498DA44E7DBCD6852F /* init.c in Sources */,
+				05C656C44C1C4A63BEABB9BA /* input.c in Sources */,
+				738E6C46B1124A67BAC1E88D /* monitor.c in Sources */,
+				EAE9723B4848497D9B92A5F4 /* nsgl_context.m in Sources */,
+				4BF18A9ADFE84B6C9A77C332 /* posix_tls.c in Sources */,
+				4FB3094A3FAD481A8CC0EA3D /* vulkan.c in Sources */,
+				76BB8CEF8CA84E9B95A7C942 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACEA250AE47843DA93709213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF24731AE694DFAB13812B3 /* ObjMesh.cpp in Sources */,
+				091C2161A2C446268F2DF881 /* SourcePath.cpp in Sources */,
+				AB54B6679CE94AA0BB905DFC /* Trackball.cpp in Sources */,
+				3AB328C6CB17414FAA9BD61A /* toon.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F363B0546D9842F495189565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5ED3AEDAA34D8B9B6B0A86 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C55B779DE594B509F57535C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32FA895AAB4F8CB87C5B5F /* glfw */;
+			targetProxy = 57F28A6F0E4A4D59B1FF8F07 /* PBXContainerItemProxy */;
+		};
+		431930888BE54E8CBC003EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */;
+			targetProxy = 8A78693A90C34FA0907A2991 /* PBXContainerItemProxy */;
+		};
+		485EB919B2FD43808DACDCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */;
+			targetProxy = 1236876A0F814458A04AC75A /* PBXContainerItemProxy */;
+		};
+		6006F0203F74478697579612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */;
+			targetProxy = 8E601E63F3FB4AE68144E4E1 /* PBXContainerItemProxy */;
+		};
+		811FF93469D84A26B2C02016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */;
+			targetProxy = F40EE5644C0744FB9572D5F5 /* PBXContainerItemProxy */;
+		};
+		820E2795EDFB43FCB0082669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA25BAFFDCD412F892124A0 /* toon */;
+			targetProxy = 3E5FBD213F70421984919E77 /* PBXContainerItemProxy */;
+		};
+		C56C153E3DF945F4907CE11A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71D98768D054AB28DDCE82F /* glad */;
+			targetProxy = 190D72060A1B444785434B7B /* PBXContainerItemProxy */;
+		};
+		D47F5539011A43EE89BE8B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32FA895AAB4F8CB87C5B5F /* glfw */;
+			targetProxy = 247AC1553FD448089EAC3396 /* PBXContainerItemProxy */;
+		};
+		E934D498FF044A17B5FFB222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32FA895AAB4F8CB87C5B5F /* glfw */;
+			targetProxy = A616C6162A13411AADB0E2CD /* PBXContainerItemProxy */;
+		};
+		F05262689EAD45628DC2BE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71D98768D054AB28DDCE82F /* glad */;
+			targetProxy = F207937C970044508AD47CF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032BE0B3DD6149DBBEE65D69 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		03D9C4CB290E4AD99D3FEB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		04674753DD764B7282361443 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		06D9AF16300E49F087CF41F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		0C67E5CA0E3F4A7F9230474A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		0F38A1CABAC9441592116EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		182CE6E7B402448486695990 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		21A81D62D192488AAA19672C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INFOPLIST_FILE = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeFiles/toon.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/MinSizeRel/libglfw3.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/MinSizeRel/libglad.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/MinSizeRel/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		335BD12306724ECEB7AA5A3C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		351B18FBE5884154A6508607 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/build";
+			};
+			name = RelWithDebInfo;
+		};
+		371AB34AACA9422CBC364ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		4527571C2A614A43A05E4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INFOPLIST_FILE = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeFiles/toon.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/Release/libglfw3.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/Release/libglad.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/Release/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		521B873D4F07489EB64CDCE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6BD7F1F997E74126B6A06601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/build";
+			};
+			name = Debug;
+		};
+		6E5A4DC6955140FE9B6F778D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/build";
+			};
+			name = MinSizeRel;
+		};
+		74689E538B744B69B8256F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		7A75FA7F01574E1A821E28FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INFOPLIST_FILE = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeFiles/toon.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/Debug/libglfw3.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/Debug/libglad.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/Debug/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		81B4707577F04E8CBFA1E5BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INFOPLIST_FILE = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/CMakeFiles/toon.dir/Info.plist";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/RelWithDebInfo/libglfw3.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/RelWithDebInfo/libglad.a",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/RelWithDebInfo/libglfw3.a",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					CoreVideo,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		91A0E757DFCE4EC7A51CEA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/build";
+			};
+			name = Release;
+		};
+		96F87B51560A4CB392FFAD5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/deps",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/source/common",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/shaders",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glad;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		98C81C43CF9041BB8E28D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		A4640DB6EC464818A4F7AE1B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src",
+					"/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		C866D22C7FF14F17AA1D4374 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		DB77B62F36654EFD838769A4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CAB473D67024C23964AA8D5 /* Build configuration list for PBXNativeTarget "toon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A75FA7F01574E1A821E28FD /* Debug */,
+				4527571C2A614A43A05E4042 /* Release */,
+				21A81D62D192488AAA19672C /* MinSizeRel */,
+				81B4707577F04E8CBFA1E5BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2C1A0D8FDD7045A4B8EDF7A7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F38A1CABAC9441592116EB4 /* Debug */,
+				0C67E5CA0E3F4A7F9230474A /* Release */,
+				335BD12306724ECEB7AA5A3C /* MinSizeRel */,
+				DB77B62F36654EFD838769A4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4590E7B0BC7746ED93917581 /* Build configuration list for PBXProject "toon_SHADING" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BD7F1F997E74126B6A06601 /* Debug */,
+				91A0E757DFCE4EC7A51CEA39 /* Release */,
+				6E5A4DC6955140FE9B6F778D /* MinSizeRel */,
+				351B18FBE5884154A6508607 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CB7E001E17B40D6B6FF6A93 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98C81C43CF9041BB8E28D404 /* Debug */,
+				03D9C4CB290E4AD99D3FEB64 /* Release */,
+				C866D22C7FF14F17AA1D4374 /* MinSizeRel */,
+				182CE6E7B402448486695990 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78EE5FB610C7484C88D5EFD1 /* Build configuration list for PBXNativeTarget "glad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521B873D4F07489EB64CDCE9 /* Debug */,
+				74689E538B744B69B8256F7A /* Release */,
+				96F87B51560A4CB392FFAD5B /* MinSizeRel */,
+				032BE0B3DD6149DBBEE65D69 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C070D888AAB34030A72546D9 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D9AF16300E49F087CF41F3 /* Debug */,
+				371AB34AACA9422CBC364ED1 /* Release */,
+				04674753DD764B7282361443 /* MinSizeRel */,
+				A4640DB6EC464818A4F7AE1B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA1D23B233F24CC99F672B86 /* Project object */;
+}

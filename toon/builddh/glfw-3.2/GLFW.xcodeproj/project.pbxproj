@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 307CBC4DDB654A36B0E7AC6B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A9C1267487B541D5BDBA5F46 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		AD15724620304B48A525FA22 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BFBEDD95E624432930B2536 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D6B9F01536074A94B796CCE0 /* CMake Rules */,
+			);
+			dependencies = (
+				4BB29B87973A42E7B20DB9A4 /* PBXTargetDependency */,
+				7F629D28592C43748D7BF65D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B368EC24A4B44F7896E7A89 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 60C974C540744A66AAC930C6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_monitor.m */; };
+		1EBCE08B2C4048CBB43B5502 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = F4A031792BED4E0C8C202C8C /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.m */; };
+		280F681886E045299286C433 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 9F8E109C338B44D2BCD02443 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/glfw_config.h */; };
+		3D95C0B8A75A49F5B63D476C /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/context.c */ = {isa = PBXBuildFile; fileRef = 99C788920DAB4619A3980905 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/context.c */; };
+		43F750CD062D4D589E9B0F8F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/internal.h */ = {isa = PBXBuildFile; fileRef = 32DB79CFC4144003888E7A23 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/internal.h */; };
+		475137629DD040978CE7F3A6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 04736C39930A4EBF8E227C77 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/vulkan.c */; };
+		493563A1499A42B6BB423E68 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/monitor.c */ = {isa = PBXBuildFile; fileRef = B34EE86070B54D678048BB04 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/monitor.c */; };
+		601910C27B614616B9D6558F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 2378376CC956450083B2E118 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.h */; };
+		67E70E50D8AC42ED9426D731 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/input.c */ = {isa = PBXBuildFile; fileRef = 7B329D2C83064E4A833FFB17 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/input.c */; };
+		6DE315C2F0734AE7A936F140 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 80A8BFEC6A2546CC8E6A2F56 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_init.m */; };
+		7470A328E230443F9BB6ED82 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 466E3336A0F347E1953EAA06 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_window.m */; };
+		762569052FF8454383D81C9F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 653D92AC83204AA09A3B4571 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3.h */; };
+		86049D2E58D040CABF915DB1 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/init.c */ = {isa = PBXBuildFile; fileRef = 320538F8819843668D99EFEF /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/init.c */; };
+		9502D2EB987A4C06AD5A361A /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D31390A08A34413F9034BB7F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/CMakeLists.txt */; };
+		9924068C9E1D461982DBA9C9 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = F57C59C8D97849A5B9588BCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.h */; };
+		9AD74148B1A44DB1A1F1A5EF /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = FC9761E960684EE187CD4AE3 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.c */; };
+		A1F2666A6DFC45CE98AF2001 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/window.c */ = {isa = PBXBuildFile; fileRef = 96EACECC56894B64971A1AAA /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/window.c */; };
+		A21FAD12856C4ECB81D7BEB5 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = C4EB3FA7D8B349B58C497B66 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.m */; };
+		B65ECB48B1724880B4F66745 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 157FA173F2C440119717254D /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3native.h */; };
+		C63BC40D95D441DBB9D1618D /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 1BD1BB42587843E38DF24C4F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_time.c */; };
+		D857488FBCD1437690334CE5 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 057DBC07A6AD4BFC935ADDF1 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.h */; };
+		F55B4A4FBCE54AC7AC2AF9B6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = CC711FE7A527493299133FCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_platform.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		C731D12CD2B24DA0BAD705C8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		DD72D8A1F7C14FEC83476DFB /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E4399539D6364E68A684CFC3 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E84B10F18BF74DEDA61C3AB7 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2C0437EE4E934CFDA39FC850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D28BD3ADDEC44A4B8D85533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF32FA895AAB4F8CB87C5B5F;
+			remoteInfo = glfw;
+		};
+		9B868F37972A44718513246D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D28BD3ADDEC44A4B8D85533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FEE94C30DC54FE5AE9BA5C3;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04736C39930A4EBF8E227C77 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		057DBC07A6AD4BFC935ADDF1 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		157FA173F2C440119717254D /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		1BD1BB42587843E38DF24C4F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		20A65F6527D54994B0AF2739 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2378376CC956450083B2E118 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		320538F8819843668D99EFEF /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		32DB79CFC4144003888E7A23 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		466E3336A0F347E1953EAA06 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		60C974C540744A66AAC930C6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		653D92AC83204AA09A3B4571 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		7B329D2C83064E4A833FFB17 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		80A8BFEC6A2546CC8E6A2F56 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		96EACECC56894B64971A1AAA /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		99C788920DAB4619A3980905 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		9F8E109C338B44D2BCD02443 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "../builddh/glfw-3.2/src/glfw_config.h"; sourceTree = SOURCE_ROOT; };
+		B34EE86070B54D678048BB04 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		B9271A0150D1485B9847666E /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C4EB3FA7D8B349B58C497B66 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		CC711FE7A527493299133FCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		D31390A08A34413F9034BB7F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F4A031792BED4E0C8C202C8C /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		F57C59C8D97849A5B9588BCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		FC9761E960684EE187CD4AE3 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02BC2B6F742549ECBE6D06BD /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				DA03C0400BD6430798356552 /* Source Files */,
+				7F179667D4754840916591E1 /* Header Files */,
+				D31390A08A34413F9034BB7F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		0E922D831CE94825BD29C2FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A65F6527D54994B0AF2739 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E35CEFEC6D64F2C83395B26 = {
+			isa = PBXGroup;
+			children = (
+				D022A0368084456CA643FFEC /* ALL_BUILD */,
+				7AE8CB202D474CC3ABC95816 /* GLFW3 */,
+				0E922D831CE94825BD29C2FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78158F29842C40B39E5D4159 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7AE8CB202D474CC3ABC95816 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				02BC2B6F742549ECBE6D06BD /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		7F179667D4754840916591E1 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8E109C338B44D2BCD02443 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src/glfw_config.h */,
+				653D92AC83204AA09A3B4571 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3.h */,
+				157FA173F2C440119717254D /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include/GLFW/glfw3native.h */,
+				2378376CC956450083B2E118 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.h */,
+				CC711FE7A527493299133FCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_platform.h */,
+				32DB79CFC4144003888E7A23 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/internal.h */,
+				057DBC07A6AD4BFC935ADDF1 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.h */,
+				F57C59C8D97849A5B9588BCD /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D022A0368084456CA643FFEC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				78158F29842C40B39E5D4159 /* CMake Rules */,
+				B9271A0150D1485B9847666E /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DA03C0400BD6430798356552 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				80A8BFEC6A2546CC8E6A2F56 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_init.m */,
+				F4A031792BED4E0C8C202C8C /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.m */,
+				60C974C540744A66AAC930C6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_monitor.m */,
+				1BD1BB42587843E38DF24C4F /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_time.c */,
+				466E3336A0F347E1953EAA06 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_window.m */,
+				99C788920DAB4619A3980905 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/context.c */,
+				320538F8819843668D99EFEF /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/init.c */,
+				7B329D2C83064E4A833FFB17 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/input.c */,
+				B34EE86070B54D678048BB04 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/monitor.c */,
+				C4EB3FA7D8B349B58C497B66 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.m */,
+				FC9761E960684EE187CD4AE3 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.c */,
+				04736C39930A4EBF8E227C77 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/vulkan.c */,
+				96EACECC56894B64971A1AAA /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF32FA895AAB4F8CB87C5B5F /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D27E3B711444D4F801A249A /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				A9DDF4AA0D2045E190B828F7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = 20A65F6527D54994B0AF2739 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D28BD3ADDEC44A4B8D85533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1160;
+			};
+			buildConfigurationList = F357E23AC8BF4383952D8C2B /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E84B10F18BF74DEDA61C3AB7 /* Debug */,
+				C731D12CD2B24DA0BAD705C8 /* Release */,
+				E4399539D6364E68A684CFC3 /* MinSizeRel */,
+				DD72D8A1F7C14FEC83476DFB /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3E35CEFEC6D64F2C83395B26;
+			projectDirPath = "../../glfw-3.2";
+			projectRoot = "";
+			targets = (
+				AD15724620304B48A525FA22 /* ALL_BUILD */,
+				0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */,
+				EF32FA895AAB4F8CB87C5B5F /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17F78565140A43F288E7D98A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A9C1267487B541D5BDBA5F46 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2 -f /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D6B9F01536074A94B796CCE0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2 -f /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D7B43707B4694CB395F56DD7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DDF4AA0D2045E190B828F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE315C2F0734AE7A936F140 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_init.m */,
+				1EBCE08B2C4048CBB43B5502 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_joystick.m */,
+				1B368EC24A4B44F7896E7A89 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_monitor.m */,
+				C63BC40D95D441DBB9D1618D /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_time.c */,
+				7470A328E230443F9BB6ED82 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/cocoa_window.m */,
+				3D95C0B8A75A49F5B63D476C /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/context.c */,
+				86049D2E58D040CABF915DB1 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/init.c */,
+				67E70E50D8AC42ED9426D731 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/input.c */,
+				493563A1499A42B6BB423E68 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/monitor.c */,
+				A21FAD12856C4ECB81D7BEB5 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/nsgl_context.m */,
+				9AD74148B1A44DB1A1F1A5EF /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/posix_tls.c */,
+				475137629DD040978CE7F3A6 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/vulkan.c */,
+				A1F2666A6DFC45CE98AF2001 /* /Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BB29B87973A42E7B20DB9A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FEE94C30DC54FE5AE9BA5C3 /* ZERO_CHECK */;
+			targetProxy = 9B868F37972A44718513246D /* PBXContainerItemProxy */;
+		};
+		7F629D28592C43748D7BF65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF32FA895AAB4F8CB87C5B5F /* glfw */;
+			targetProxy = 2C0437EE4E934CFDA39FC850 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE2701973E645908BFF059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		15979B7BD76744FD945E3B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/build";
+			};
+			name = Debug;
+		};
+		41673BCEAB9942C99EA79A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		472A54BD30264942ACA93880 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		472AC880DE624B98B623C375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4E15818545EA461EA617A404 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		64E71C18670B40A4B9F5D920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		66D3B1CF35A748C4BAB6F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		90B6A8F8B91A49EBB0E4B858 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B107B7BE10D2410F9B03CB0D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C79D5EDB5EB545FFB7C362EC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CA6CC5BD1796489B8931DC2D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/build";
+			};
+			name = MinSizeRel;
+		};
+		CD5F09DB0DF34F96A0E4EB86 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/build";
+			};
+			name = RelWithDebInfo;
+		};
+		CF6B72532F714C21B553814A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/build";
+			};
+			name = Release;
+		};
+		D20E68173A5D48A0965C2349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/include","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/glfw-3.2/src","/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC -Wall ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F1A773AE78DB4279A7257FA2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/dylanhecht/Documents/GitHub/module-shading-team-c/toon/builddh/glfw-3.2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307CBC4DDB654A36B0E7AC6B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472AC880DE624B98B623C375 /* Debug */,
+				64E71C18670B40A4B9F5D920 /* Release */,
+				F1A773AE78DB4279A7257FA2 /* MinSizeRel */,
+				472A54BD30264942ACA93880 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BFBEDD95E624432930B2536 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D3B1CF35A748C4BAB6F58B /* Debug */,
+				41673BCEAB9942C99EA79A27 /* Release */,
+				4E15818545EA461EA617A404 /* MinSizeRel */,
+				C79D5EDB5EB545FFB7C362EC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D27E3B711444D4F801A249A /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D20E68173A5D48A0965C2349 /* Debug */,
+				0AE2701973E645908BFF059A /* Release */,
+				90B6A8F8B91A49EBB0E4B858 /* MinSizeRel */,
+				B107B7BE10D2410F9B03CB0D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F357E23AC8BF4383952D8C2B /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15979B7BD76744FD945E3B6E /* Debug */,
+				CF6B72532F714C21B553814A /* Release */,
+				CA6CC5BD1796489B8931DC2D /* MinSizeRel */,
+				CD5F09DB0DF34F96A0E4EB86 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D28BD3ADDEC44A4B8D85533 /* Project object */;
+}

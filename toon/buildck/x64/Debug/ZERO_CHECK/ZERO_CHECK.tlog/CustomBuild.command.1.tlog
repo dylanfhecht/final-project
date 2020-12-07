@@ -1,0 +1,10 @@
+^D:\TICTAC\MODULE-SHADING-TEAM-C\TOON\BUILDCK\CMAKEFILES\20DF795A4FD17D09CB55C83F0F17DB97\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/tictac/module-shading-team-c/toon -BD:/tictac/module-shading-team-c/toon/buildck --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/tictac/module-shading-team-c/toon/buildck/toon_SHADING.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

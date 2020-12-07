@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\tictac\module-shading-team-c\toon\source\toon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tictac\module-shading-team-c\toon\source\common\ObjMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tictac\module-shading-team-c\toon\source\common\SourcePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\tictac\module-shading-team-c\toon\source\common\Trackball.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\CheckError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\ObjMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\SourcePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\Trackball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\tictac\module-shading-team-c\toon\source\common\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tictac\module-shading-team-c\toon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\tictac\module-shading-team-c\toon\shaders\fshader.glsl" />
+    <None Include="D:\tictac\module-shading-team-c\toon\shaders\vshader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8D71A4B5-425B-3DF0-9AA2-8D482496B233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{583C27F0-7DC2-354B-81A2-B65B7AF1237A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

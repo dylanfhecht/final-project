@@ -1,0 +1,2 @@
+D:\tictac\module-shading-team-c\toon\buildck\Debug\glad.pdb
+D:\tictac\module-shading-team-c\toon\buildck\glad.dir\Debug\glad.pdb
