@@ -778,7 +778,7 @@ int main(void){
     GLfloat aspect = GLfloat(width)/height;
     
     //Projection matrix
-    mat4  projection = Perspective( 45.0, aspect, 0.5, 12.0 );
+    mat4  projection = Perspective( 45.0, aspect, 0.5, 13.0 );
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
